@@ -1,1 +1,1 @@
-# Windows-11-STIG-Remediation-
+# Windows-11-STIG-Remediation
