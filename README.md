@@ -24,14 +24,16 @@ This table briefly lists my top priority controls (based on severity, exploitabi
 
 | STIG ID(s)                      | Summary                                                 | Link                                                         |
 |---------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
-| WN11-AC-000010  | Increase event log sizes to meet STIG thresholds        | *[Event Log Sizes](./docs/STIG-EventLogSizes.md)*             |
-| WN11-SO-000010                   | Disable Windows PowerShell 2.0                          | *[Disable PS2](./docs/STIG-DisablePS2.md)*                                       |
-| WN11-SO-000010 | Enforce account lockout policy (3 attempts, 15 min lock) | *[Account Lockout](./docs/STIG-AccountLockout.md)*                                    |
-| WN10-AC-000035 / -000040        | Require 14+ character passwords and enable complexity      | *[Password Complexity](./docs/STIG-PasswordComplexityRemediation.md)*                                       |
-| WN10-CC-000180 / -000185 / -000190 | Disable AutoPlay/AutoRun for all drives               | *[Disable AutoPlay](./docs/STIG-DisableAutoPlay.md)*                                       |
-| WN10-00-000145                  | Enable Data Execution Prevention (DEP) in “OptOut” mode | *[Configure DEP](./docs/STIG-ConfigureDEP.md)*                                       |
-| WN10-CC-000038                  | Disable WDigest authentication                          | *[Disable WDigest](./docs/STIG-DisableWDigest.md)*                                       |
-| WN10-00-000175                  | Disable Secondary Logon Service                         | *[Disable Secondary Logon](./docs/STIG-DisableSecondaryLogon.md)*                |
+| WN11-AC-000010  | The number of allowed bad logon attempts must be configured to three or less.         | *[Event Log Sizes](./docs/STIG-EventLogSizes.md)*             |
+| WN11-SO-000010                   | The built-in guest account must be disabled.                           | *[Disable PS2](./docs/STIG-DisablePS2.md)*                                       |
+| WN11-CC-000391 | Internet Explorer must be disabled for Windows 11.  | *[Account Lockout](./docs/STIG-AccountLockout.md)*                                    |
+| WN11-AC-000035        | Passwords must, at a minimum, be 14 characters.      | *[Password Complexity](./docs/STIG-PasswordComplexityRemediation.md)*                                       |
+| WN11-SO-000280 | Passwords for enabled local Administrator accounts must be changed at least every 60 days.               | *[Disable AutoPlay](./docs/STIG-DisableAutoPlay.md)*                                       |
+| WN11-SO-000070                  | The machine inactivity limit must be set to 15 minutes, locking the system with the screensaver.  | *[Configure DEP](./docs/STIG-ConfigureDEP.md)*                                       |
+| WN11-AC-000020                  |The password history must be configured to 24 passwords remembered.                           | *[Disable WDigest](./docs/STIG-DisableWDigest.md)*                                       |
+| WN11-CC-000040                  | Insecure logons to an SMB server must be disabled.                          | *[Disable Secondary Logon](./docs/STIG-DisableSecondaryLogon.md)*                |
+| WN11-CC-000280                  | Remote Desktop Services must always prompt a client for passwords upon connection.                          | *[Disable Secondary Logon](./docs/STIG-DisableSecondaryLogon.md)*                |
+
 
 
 ## Remediation Workflow
