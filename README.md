@@ -22,7 +22,7 @@ Welcome to my **Windows 10 STIG v3r2** remediation project! This repository docu
 
 This table briefly lists my top priority controls (based on severity, exploitability, and minimal user disruption). Each links to a more detailed page in the `docs/` folder.
 
-| STIG ID(s)                      | Summary                                                 | Remediation Summaey                                                        |
+| STIG ID(s)                      | Summary                                                 | Remediation Summary                                                        |
 |---------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
 | WN11-AC-000010  | The number of allowed bad logon attempts must be configured to three or less.         | *[Logon Attempts](./docs/STIG-EventLogSizes.md)*             |
 | WN11-SO-000010                   | The built-in guest account must be disabled.                           | *[Disable guest account](./docs/STIG-DisablePS2.md)*                                       |
