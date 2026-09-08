@@ -22,17 +22,17 @@ Welcome to my **Windows 10 STIG v3r2** remediation project! This repository docu
 
 This table briefly lists my top priority controls (based on severity, exploitability, and minimal user disruption). Each links to a more detailed page in the `docs/` folder.
 
-| STIG ID(s)                      | Summary                                                 | Link                                                         |
+| STIG ID(s)                      | Summary                                                 | Remediation Summaey                                                        |
 |---------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
-| WN11-AC-000010  | The number of allowed bad logon attempts must be configured to three or less.         | *[Event Log Sizes](./docs/STIG-EventLogSizes.md)*             |
-| WN11-SO-000010                   | The built-in guest account must be disabled.                           | *[Disable PS2](./docs/STIG-DisablePS2.md)*                                       |
-| WN11-CC-000391 | Internet Explorer must be disabled for Windows 11.  | *[Account Lockout](./docs/STIG-AccountLockout.md)*                                    |
-| WN11-AC-000035        | Passwords must, at a minimum, be 14 characters.      | *[Password Complexity](./docs/STIG-PasswordComplexityRemediation.md)*                                       |
-| WN11-SO-000280 | Passwords for enabled local Administrator accounts must be changed at least every 60 days.               | *[Disable AutoPlay](./docs/STIG-DisableAutoPlay.md)*                                       |
-| WN11-SO-000070                  | The machine inactivity limit must be set to 15 minutes, locking the system with the screensaver.  | *[Configure DEP](./docs/STIG-ConfigureDEP.md)*                                       |
-| WN11-AC-000020                  |The password history must be configured to 24 passwords remembered.                           | *[Disable WDigest](./docs/STIG-DisableWDigest.md)*                                       |
-| WN11-CC-000040                  | Insecure logons to an SMB server must be disabled.                          | *[Disable Secondary Logon](./docs/STIG-DisableSecondaryLogon.md)*                |
-| WN11-CC-000280                  | Remote Desktop Services must always prompt a client for passwords upon connection.                          | *[Disable Secondary Logon](./docs/STIG-DisableSecondaryLogon.md)*                |
+| WN11-AC-000010  | The number of allowed bad logon attempts must be configured to three or less.         | *[Logon Attempts](./docs/STIG-EventLogSizes.md)*             |
+| WN11-SO-000010                   | The built-in guest account must be disabled.                           | *[Disable guest account](./docs/STIG-DisablePS2.md)*                                       |
+| WN11-CC-000391 | Internet Explorer must be disabled for Windows 11.  | *[Disable Internet explorer](./docs/STIG-AccountLockout.md)*                                    |
+| WN11-AC-000035        | Passwords must, at a minimum, be 14 characters.      | *[Password Character Minimum](./docs/STIG-PasswordComplexityRemediation.md)*                                       |
+| WN11-SO-000280 | Passwords for enabled local Administrator accounts must be changed at least every 60 days.               | *[Administrator Maximum Password Age](./docs/STIG-DisableAutoPlay.md)*                                       |
+| WN11-SO-000070                  | The machine inactivity limit must be set to 15 minutes, locking the system with the screensaver.  | *[Machine Inactivity Limit](./docs/STIG-ConfigureDEP.md)*                                       |
+| WN11-AC-000020                  |The password history must be configured to 24 passwords remembered.                           | *[Password History Minimum](./docs/STIG-DisableWDigest.md)*                                       |
+| WN11-CC-000040                  | Insecure logons to an SMB server must be disabled.                          | *[Disable SMB Logon](./docs/STIG-DisableSecondaryLogon.md)*                |
+| WN11-CC-000280                  | Remote Desktop Services must always prompt a client for passwords upon connection.                          | *[RDS Password Prompt](./docs/STIG-DisableSecondaryLogon.md)*                |
 
 
 
