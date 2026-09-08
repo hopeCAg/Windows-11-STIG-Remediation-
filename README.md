@@ -24,7 +24,7 @@ Welcome to my **Windows 10 STIG v3r2** remediation project! This repository docu
 
 | STIG ID(s)                      | Summary                                                 | Remediation Summary                                                        |
 |---------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
-| WN11-AC-000010  | The number of allowed bad logon attempts must be configured to three or less.         | *[Logon Attempts]([./docs/STIG-EventLogSizes.md](https://github.com/hopeCAg/Windows-11-STIG-Remediation-/blob/main/STIG-Summaries/Logon%20attempts))*             |
+| WN11-AC-000010  | The number of allowed bad logon attempts must be configured to three or less.         | *[Logon Attempts]([https://github.com/hopeCAg/Windows-11-STIG-Remediation-/blob/main/STIG-Summaries/Logon%20attempts])          |
 | WN11-SO-000010                   | The built-in guest account must be disabled.                           | *[Disable guest account](./docs/STIG-DisablePS2.md)*                                       |
 | WN11-CC-000391 | Internet Explorer must be disabled for Windows 11.  | *[Disable Internet explorer](./docs/STIG-AccountLockout.md)*                                    |
 | WN11-AC-000035        | Passwords must, at a minimum, be 14 characters.      | *[Password Character Minimum](./docs/STIG-PasswordComplexityRemediation.md)*                                       |
