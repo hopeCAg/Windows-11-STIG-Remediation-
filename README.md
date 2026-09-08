@@ -18,9 +18,9 @@ Welcome to my **Windows 10 STIG v3r2** remediation project! This repository docu
 - **Purpose**: Demonstrate the practical process of scanning a Windows 10 Azure VM with Nessus, identifying STIG findings, remediating them with PowerShell or manual configuration, and verifying the result.
 - **Scope**: Focus on the DISA Windows 10 STIG v3r2 controls.
 
-## High-Priority STIG Controls
+## Chosen STIG Controls
 
-This table briefly lists my top priority controls (based on severity, exploitability, and minimal user disruption). Each links to a more detailed page in the `docs/` folder.
+
 
 | STIG ID(s)                      | Summary                                                 | Remediation Summary                                                        |
 |---------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
@@ -35,27 +35,6 @@ This table briefly lists my top priority controls (based on severity, exploitabi
 | WN11-CC-000280                  | Remote Desktop Services must always prompt a client for passwords upon connection.                          | *[RDS Password Prompt](./docs/STIG-DisableSecondaryLogon.md)*                |
 
 
-
-## Remediation Workflow
-
-Below is the general workflow I use:
-
-```mermaid
-    flowchart LR
-    A((Initial Nessus Scan)) --> B{Identify STIG Failures}
-    B --> C["Remediate with PowerShell Scripts (Automation)"]
-    B --> D["Manual Remediation <br>(If Needed)"]
-    C --> E((Re-scan / Verify))
-    D --> E
-    E --> F{STIG Passed?}
-    F -- Yes --> G((Document & Finalize))
-    F -- No --> B
-```
-
-1. **Scan** the system with Tenable Nessus STIG policy.
-2. **Identify** failed STIG items.
-3. **Remediate** using PowerShell scripts or manual steps.
-4. **Verify** success by rescanning.
 
 ## Scripts Folder
 
