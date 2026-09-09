@@ -33,11 +33,12 @@ Policies >> Account Lockout Policy >> 'Account lockout threshold' to '3' or less
 
 #Screenshots
 
-<img width="599" height="658" alt="Screenshot 2026-09-08 161151" src="https://github.com/user-attachments/assets/3780cb09-49d9-4e71-8540-521014911d61" />
+<img width="596" height="357" alt="image" src="https://github.com/user-attachments/assets/0609de2c-ea68-445e-a28a-44747a642bef" />
 
-<img width="540" height="273" alt="image" src="https://github.com/user-attachments/assets/1fd08653-1de6-4666-b579-b071a1961059" />
 
-<img width="546" height="257" alt="image" src="https://github.com/user-attachments/assets/c1b00f29-f21f-4002-bf87-a04afd78235b" />
+<img width="541" height="203" alt="image" src="https://github.com/user-attachments/assets/1fd08653-1de6-4666-b579-b071a1961059" />
+
+<img width="541" height="257" alt="image" src="https://github.com/user-attachments/assets/c1b00f29-f21f-4002-bf87-a04afd78235b" />
 
 <img width="541" height="259" alt="image" src="https://github.com/user-attachments/assets/df58d298-566e-41d6-a16c-2c6df86cdeef" />
 
