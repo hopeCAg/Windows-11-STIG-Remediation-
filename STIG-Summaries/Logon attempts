@@ -1,3 +1,9 @@
 
+# Account Lockout Policy Remediation
+**STIG IDs**:  
+- **WN10-AC-000005** (Account lockout duration ≥ 15 minutes)  
+- **WN10-AC-000010** (Number of allowed bad logon attempts ≤ 3)  
+- **WN10-AC-000015** (Reset account lockout counter after ≥ 15 minutes)
 
+---
 
