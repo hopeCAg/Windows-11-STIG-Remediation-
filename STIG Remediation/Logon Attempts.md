@@ -33,19 +33,19 @@ Policies >> Account Lockout Policy >> 'Account lockout threshold' to '3' or less
 
 #Screenshots
 
-<img width="899" height="658" alt="Screenshot 2026-09-08 161151" src="https://github.com/user-attachments/assets/3780cb09-49d9-4e71-8540-521014911d61" />
+<img width="599" height="658" alt="Screenshot 2026-09-08 161151" src="https://github.com/user-attachments/assets/3780cb09-49d9-4e71-8540-521014911d61" />
 
-<img width="900" height="273" alt="image" src="https://github.com/user-attachments/assets/1fd08653-1de6-4666-b579-b071a1961059" />
+<img width="600" height="273" alt="image" src="https://github.com/user-attachments/assets/1fd08653-1de6-4666-b579-b071a1961059" />
 
-<img width="896" height="367" alt="image" src="https://github.com/user-attachments/assets/c1b00f29-f21f-4002-bf87-a04afd78235b" />
+<img width="696" height="367" alt="image" src="https://github.com/user-attachments/assets/c1b00f29-f21f-4002-bf87-a04afd78235b" />
 
-<img width="901" height="369" alt="image" src="https://github.com/user-attachments/assets/df58d298-566e-41d6-a16c-2c6df86cdeef" />
+<img width="601" height="369" alt="image" src="https://github.com/user-attachments/assets/df58d298-566e-41d6-a16c-2c6df86cdeef" />
 
-<img width="901" height="370" alt="image" src="https://github.com/user-attachments/assets/f18fae22-bcf7-464c-93a6-72c2e59ceea0" />
+<img width="601" height="370" alt="image" src="https://github.com/user-attachments/assets/f18fae22-bcf7-464c-93a6-72c2e59ceea0" />
 
-<img width="901" height="317" alt="image" src="https://github.com/user-attachments/assets/30119ce1-68b0-4b04-bf61-af53a6a6b71f" />
+<img width="601" height="317" alt="image" src="https://github.com/user-attachments/assets/30119ce1-68b0-4b04-bf61-af53a6a6b71f" />
 
-<img width="896" height="574" alt="image" src="https://github.com/user-attachments/assets/3ccb198a-a6ad-45eb-8fa3-3a07ea256e69" />
+<img width="696" height="574" alt="image" src="https://github.com/user-attachments/assets/3ccb198a-a6ad-45eb-8fa3-3a07ea256e69" />
 
 
 
