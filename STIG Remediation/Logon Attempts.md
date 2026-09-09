@@ -57,7 +57,7 @@ Policies >> Account Lockout Policy >> 'Account lockout threshold' to '3' or less
 
 ## 4. Automated Remediation (PowerShell Script)
 
-See [`scripts/Set-STIG-AccountLockout.ps1`](../scripts/Set-STIG-AccountLockout.ps1).
+<!-- See [`scripts/Set-STIG-AccountLockout.ps1`](../scripts/Set-STIG-AccountLockout.ps1). -->
 
 ```powershell
 Write-Host "Configuring Account Lockout Policy (WN10-AC-000005, -000010, -000015)..." -ForegroundColor Cyan
@@ -79,8 +79,8 @@ catch {
 }
 ```
 
-**Reference**: [Official Microsoft net accounts documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/net-commands-on-operating-systems).
-
+<!-- **Reference**: [Official Microsoft net accounts documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/net-commands-on-operating-systems).
+-->
 ---
 
 ![AccountLockout_Script](https://github.com/user-attachments/assets/ec77f57b-a214-474e-ad72-55cc28f09b20)
@@ -104,11 +104,3 @@ catch {
 ---
 
 
----
-
-## 7. Final Results
-
-By setting **lockout** threshold, duration, and reset counter properly:
-
-- **You** mitigate brute-force attacks on local accounts.  
-- **WN10-AC-000005**, **-000010**, and **-000015** will pass in **DISA Windows 10 STIG v3r2**.  
