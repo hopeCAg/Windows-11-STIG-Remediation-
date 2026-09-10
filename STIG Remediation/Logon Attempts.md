@@ -1,6 +1,6 @@
 # Account Logon Attempt Maximum
 **STIG IDs**:  
-- **WN10-AC-000010** (Number of allowed bad logon attempts ≤ 3)  
+- **WN10-AC-000010** - The number of allowed bad logon attempts must be configured to three or less 
 ---
 
 ## 1. Problem Statement / Vulnerability
