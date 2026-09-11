@@ -15,7 +15,8 @@ compromising the device, information, or the local network
 ## 2. Before Remediation (Initial State)
 
 
-<img width="729" height="312" alt="image" src="https://github.com/user-attachments/assets/ce00a2fb-8167-4030-8c59-9aa852da3a27" />
+<img width="730" height="341" alt="image" src="https://github.com/user-attachments/assets/5d2ba6cd-456a-4437-97c1-cb258fae2efe" />
+
 
 
 
