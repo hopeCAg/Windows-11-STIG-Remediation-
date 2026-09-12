@@ -81,6 +81,7 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
 **Nessus / STIG Scan Pass**
    
 
+<img width="1230" height="255" alt="image" src="https://github.com/user-attachments/assets/787a1896-dc2c-4206-9620-e773517a1d7b" />
 
 
 ---
