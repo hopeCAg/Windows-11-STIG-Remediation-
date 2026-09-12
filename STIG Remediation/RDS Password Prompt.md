@@ -68,9 +68,11 @@ upon connection' to 'Enabled'.rs
 
 
 ```powershell
-Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" -Name fPromptForPassword -Value 1 -Type DWord -Force
+New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" -Force | Out-Null
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" -Name fPromptForPassword -Value 1 -Type DWord -Force
 ```
-<img width="754" height="239" alt="image" src="https://github.com/user-attachments/assets/70b923fb-0966-4071-a245-9ae5b359fdd9" />
+<img width="714" height="217" alt="image" src="https://github.com/user-attachments/assets/0b05f131-2d6a-46f2-b9b0-cf62aa3eea0a" />
+
 
 
 
@@ -79,6 +81,7 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\W
 
  **Nessus / STIG Scan Pass**
    
+<img width="1228" height="268" alt="image" src="https://github.com/user-attachments/assets/955ac1fa-6718-4875-ba99-3254c55e92dd" />
 
 
 ---
