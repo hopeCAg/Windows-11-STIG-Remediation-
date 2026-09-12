@@ -1,4 +1,4 @@
-# Password Character Minimum
+# Disable Insecure SMB logons
 **STIG IDs**:  
 - **WN11-CC-000040** -  Insecure logons to an SMB server must be disabled
 ---
@@ -66,6 +66,7 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstatio
 
 ## 5. Testing / Verification
 
+<img width="1224" height="260" alt="image" src="https://github.com/user-attachments/assets/aefa7435-ce0f-4f7d-9ef2-0d008497b706" />
 
   
  **Nessus / STIG Scan Pass**
