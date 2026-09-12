@@ -74,6 +74,7 @@ net accounts /minpwlen:14
 
  **Nessus / STIG Scan Pass**
    
+<img width="1223" height="273" alt="image" src="https://github.com/user-attachments/assets/d88e473b-734b-49b8-be3a-087815cbee33" />
 
 
 ---
