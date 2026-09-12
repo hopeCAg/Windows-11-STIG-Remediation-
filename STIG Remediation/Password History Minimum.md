@@ -75,6 +75,7 @@ net accounts /uniquepw:24
   
  **Nessus / STIG Scan Pass**
 
+<img width="1224" height="262" alt="image" src="https://github.com/user-attachments/assets/a85932db-aa76-466a-b5b4-f87cc2852b92" />
 
 
 ---
