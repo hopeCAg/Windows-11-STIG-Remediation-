@@ -56,30 +56,11 @@
 <!-- See [`scripts/Set-STIG-AccountLockout.ps1`](../scripts/Set-STIG-AccountLockout.ps1). -->
 
 ```powershell
-Write-Host "Configuring Account Lockout Policy (WN10-AC-000005, -000010, -000015)..." -ForegroundColor Cyan
-
-try {
-    # WN10-AC-000010: Allowed bad logon attempts ≤ 3
-    net accounts /lockoutthreshold:3
-
-    # WN10-AC-000005: Account lockout duration ≥ 15
-    net accounts /lockoutduration:15
-
-    # WN10-AC-000015: Reset lockout counter after ≥ 15
-    net accounts /lockoutwindow:15
-
-    Write-Host "Lockout policies configured successfully!"
-}
-catch {
-    Write-Error "Failed to configure account lockout policies: $_"
-}
+net user guest /active:no
 ```
 
-<!-- **Reference**: [Official Microsoft net accounts documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/net-commands-on-operating-systems).
--->
----
+<img width="628" height="216" alt="image" src="https://github.com/user-attachments/assets/32353d7d-fba6-4bdc-8894-e78b7a2b5f74" />
 
-![AccountLockout_Script](https://github.com/user-attachments/assets/ec77f57b-a214-474e-ad72-55cc28f09b20)
 
 
 ## 5. Testing / Verification
@@ -88,13 +69,9 @@ catch {
 
    ![AccountLockout_After](https://github.com/user-attachments/assets/7923eb16-d87c-462f-b095-785bbaca65f0) -->
   
-2. **Nessus / STIG Scan Pass**
+ **Nessus / STIG Scan Pass**
    
-   ![WN10-AC-000005](https://github.com/user-attachments/assets/8753e8e1-0a3e-48e7-a85e-1cc2741c1cff)
 
-   ![WN10-AC-000010](https://github.com/user-attachments/assets/9cd27ac6-7d4e-47e7-9980-e4ee38b53ae8)
-
-   ![WN10-AC-000015](https://github.com/user-attachments/assets/bbd9c8b3-3aee-4805-be20-6d505874a05c)
 
 
 ---
