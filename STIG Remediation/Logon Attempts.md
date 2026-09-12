@@ -65,6 +65,7 @@ net accounts /lockoutthreshold:3
   
  **Nessus / STIG Scan Pass**
    
+<img width="1233" height="271" alt="image" src="https://github.com/user-attachments/assets/5f0de2f0-6edf-4813-a263-a41fb01d1126" />
 
 
 
