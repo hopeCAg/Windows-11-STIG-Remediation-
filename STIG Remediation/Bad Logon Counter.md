@@ -55,30 +55,12 @@
 <!-- See [`scripts/Set-STIG-AccountLockout.ps1`](../scripts/Set-STIG-AccountLockout.ps1). -->
 
 ```powershell
-Write-Host "Configuring Account Lockout Policy (WN10-AC-000005, -000010, -000015)..." -ForegroundColor Cyan
-
-try {
-    # WN10-AC-000010: Allowed bad logon attempts ≤ 3
-    net accounts /lockoutthreshold:3
-
-    # WN10-AC-000005: Account lockout duration ≥ 15
-    net accounts /lockoutduration:15
-
-    # WN10-AC-000015: Reset lockout counter after ≥ 15
-    net accounts /lockoutwindow:15
-
-    Write-Host "Lockout policies configured successfully!"
-}
-catch {
-    Write-Error "Failed to configure account lockout policies: $_"
-}
+net accounts /lockoutthreshold:5 /lockoutduration:15 /lockoutwindow:15
 ```
 
-<!-- **Reference**: [Official Microsoft net accounts documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/net-commands-on-operating-systems).
--->
----
+<img width="635" height="251" alt="image" src="https://github.com/user-attachments/assets/f31e7a5c-0fb6-4d91-bd03-153a99177c05" />
 
-![AccountLockout_Script](https://github.com/user-attachments/assets/ec77f57b-a214-474e-ad72-55cc28f09b20)
+
 
 
 ## 5. Testing / Verification
