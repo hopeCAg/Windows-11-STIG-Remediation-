@@ -1,6 +1,6 @@
 # Minimum Password Age
 **STIG IDs**:  
-- **WN11-SO-000030** - The minimum password age must be configured to at least 1 day.
+- **WN11-AC-000030** - The minimum password age must be configured to at least 1 day.
 ---
 
 ## 1. Problem Statement / Vulnerability
@@ -74,6 +74,7 @@ net accounts /minpwage:1
 
  **Nessus / STIG Scan Pass**
    
+<img width="1224" height="261" alt="image" src="https://github.com/user-attachments/assets/9c9273aa-0d9f-472a-9941-bbbd43309155" />
 
 
 
