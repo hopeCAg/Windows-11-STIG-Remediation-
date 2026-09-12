@@ -65,12 +65,10 @@ net user guest /active:no
 
 ## 5. Testing / Verification
 
-<!--1. **Check Local Security Policy**  
-
-   ![AccountLockout_After](https://github.com/user-attachments/assets/7923eb16-d87c-462f-b095-785bbaca65f0) -->
   
  **Nessus / STIG Scan Pass**
    
+<img width="1224" height="259" alt="image" src="https://github.com/user-attachments/assets/1ef7dd9e-081a-4271-9763-13e9066e9576" />
 
 
 
