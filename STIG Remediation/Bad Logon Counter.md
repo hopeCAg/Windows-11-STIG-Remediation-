@@ -65,17 +65,9 @@ net accounts /lockoutthreshold:5 /lockoutduration:15 /lockoutwindow:15
 
 ## 5. Testing / Verification
 
-<!--1. **Check Local Security Policy**  
-
-   ![AccountLockout_After](https://github.com/user-attachments/assets/7923eb16-d87c-462f-b095-785bbaca65f0) -->
-  
-2. **Nessus / STIG Scan Pass**
+ **Nessus / STIG Scan Pass**
    
-   ![WN10-AC-000005](https://github.com/user-attachments/assets/8753e8e1-0a3e-48e7-a85e-1cc2741c1cff)
-
-   ![WN10-AC-000010](https://github.com/user-attachments/assets/9cd27ac6-7d4e-47e7-9980-e4ee38b53ae8)
-
-   ![WN10-AC-000015](https://github.com/user-attachments/assets/bbd9c8b3-3aee-4805-be20-6d505874a05c)
+<img width="1229" height="259" alt="image" src="https://github.com/user-attachments/assets/19799883-b5c2-4a82-ae1f-329931992bd2" />
 
 
 ---
