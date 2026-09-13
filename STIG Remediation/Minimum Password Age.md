@@ -24,7 +24,7 @@
 
 ---
 
-## 3. Manual Remediation (Local Security Policy)
+## 3. Manual Remediation 
 
 - Open the Local Group Policy Editor >> Computer Configuration >> Windows Settings >> Security Settings >> Account
 Policies >>  Password Policy >>  'Minimum Password Age' to at least '1' day.
