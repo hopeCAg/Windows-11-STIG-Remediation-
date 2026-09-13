@@ -1,4 +1,4 @@
-# Password Character Minimum
+# Machine Activity Limit
 **STIG IDs**:  
 - **WWN11-SO-000070** -  The machine inactivity limit must be set to 15 minutes, locking the system with
 the screensaver
