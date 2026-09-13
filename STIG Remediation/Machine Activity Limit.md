@@ -27,7 +27,7 @@ the screensaver
 
 ---
 
-## 3. Manual Remediation (Local Security Policy)
+## 3. Manual Remediation 
 
 - Open the Local Group Policy Editor >> Computer Configuration >> Windows Settings >> Security Settings >>Local
 Policies >> Security Options >> 'Interactive logon: Machine inactivity limit' to '900' seconds' or less, excluding '0'
