@@ -25,8 +25,7 @@ compromising the device, information, or the local network
 
 ---
 
-## 3. Manual Remediation (Local Security Policy)
-
+## 3. Manual Remediation 
 - Open the Local Group Policy Editor >> Computer Configuration >> Windows Settings >> Security Settings >> Account
 Policies >>  Password Policy >> 'Minimum password length' to '14' characters
 
