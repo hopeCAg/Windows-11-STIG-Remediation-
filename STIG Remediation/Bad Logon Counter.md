@@ -24,8 +24,7 @@
 
 ---
 
-## 3. Manual Remediation (Local Security Policy)
-
+## 3. Manual Remediation 
 - Open the Local Group Policy Editor >> Computer Configuration >> Windows Settings >> Security Settings >> Account Policies >> Account Lockout Policy >> 'Reset account lockout counter after' to '15' minutes.
 
 ### Screenshots
