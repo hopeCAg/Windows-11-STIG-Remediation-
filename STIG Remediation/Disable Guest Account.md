@@ -24,7 +24,7 @@
 
 ---
 
-## 3. Manual Remediation (Local Security Policy)
+## 3. Manual Remediation
 
 - Open the Local Group Policy Editor >> Computer Configuration >> Windows Settings >> Security Settings >> Local Policies >> Security Options >> 'Accounts: Guest account status' to 'Disabled'.
 
