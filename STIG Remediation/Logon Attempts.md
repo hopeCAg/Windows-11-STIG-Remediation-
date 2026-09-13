@@ -25,8 +25,7 @@
 
 ---
 
-## 3. Manual Remediation (Local Security Policy)
-
+## 3. Manual Remediation 
 - Open the Local Group Policy Editor >> Computer Configuration >> Windows Settings >> Security Settings >> Account
 Policies >> Account Lockout Policy >> 'Account lockout threshold' to '3' or less invalid logon attempts (excluding
 '0' which is unacceptable).
