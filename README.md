@@ -29,7 +29,7 @@
 
 
 
-See: [Initial-Stig-Scan]([./reports/Baseline-STIG-Scan.pdf](https://github.com/hopeCAg/Windows-11-STIG-Remediation-/blob/main/STIG%20reports/Initial%20STIG%20Scan.pdf))
+See: [Initial-Stig-Scan](https://github.com/hopeCAg/Windows-11-STIG-Remediation-/blob/main/STIG%20reports/Initial%20STIG%20Scan.pdf)
 
 ---
 
