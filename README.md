@@ -1,6 +1,19 @@
 # Windows-11-STIG-Remediation
 
 
+## Overview
+
+This report documents the identification, remediation, and verification of a set of Windows 11 DISA STIG (Security Technical Implementation Guide) findings. STIGs are configuration security standards published by the Defense Information Systems Agency (DISA) to reduce the attack surface of DoD information systems; they are also widely adopted outside of DoD environments as a hardening baseline for Windows endpoints.
+
+
+
+
+
+
+
+
+
+
 ## Chosen STIG Controls
 
 
@@ -45,3 +58,7 @@ See: [Final-Stig-Scan](https://github.com/hopeCAg/Windows-11-STIG-Remediation-/b
 
 ---
 
+
+
+## Lessons Learned 
+Registry-backed GPO settings often exist in two places: the runtime/service key (e.g. under CurrentControlSet\Services or \Control) and the Policies key (under SOFTWARE\Policies\Microsoft\...). Automated STIG scanners and the Local Group Policy Editor do not always read the same one — when a control fails to pass scan despite a registry value being correct, check both locations.
